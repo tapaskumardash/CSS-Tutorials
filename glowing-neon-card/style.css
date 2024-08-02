@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #202020;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: #242424;
+  border-radius: 10px;
+  box-shadow: #c370ff 0 0 70px 20px;
+}
